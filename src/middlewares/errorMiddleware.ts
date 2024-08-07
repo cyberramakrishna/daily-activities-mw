@@ -1,10 +1,9 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response } from "express";
 
 export function errorHandler(
-  err: any,
+  err: undefined,
   req: Request,
-  res: Response,
-  next: NextFunction
+  res: Response
 ) {
   console.error(err.stack);
   res.status(500).send("Something broke!");
