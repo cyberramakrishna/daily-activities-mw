@@ -1,0 +1,11 @@
+{
+  "type": "oracle",
+  "host": "localhost",
+  "port": 1521,
+  "username": "your_db_user",
+  "password": "your_db_password",
+  "sid": "your_db_sid",
+  "entities": ["dist/entities/*.js"],
+  "logging": true,
+  "synchronize": true
+}
