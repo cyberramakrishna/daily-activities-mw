@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
 export function errorHandler(
-  err: undefined,
+  err: any,
   req: Request,
   res: Response
 ) {
